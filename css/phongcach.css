@@ -7,7 +7,7 @@
 body,html {
     scroll-behavior: smooth;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(/contact/image/background.png);
+    background-image: url(/image/background.png);
     background-position: top;
     background-position: center;
     background-size: cover;
