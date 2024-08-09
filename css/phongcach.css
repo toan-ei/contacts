@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(/contact/image/background.png);
+    background-position: top;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-two4 {
+    width: 40%;
+}
+
+.col-two1 {
+    width: 10%;
+}
+
+.col-two6 {
+    width: 50%;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.one .avt {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.one .avt .avt1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.one .content {
+    margin-top: 25px;
+}
+
+.one .content .name1 {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.one .content .name {
+    display: inline-block;
+}
+
+.one .content .namesub {
+    color: indianred;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+p.contensub {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    padding: 8px;
+    color: #fff;
+}
+
+p.contensub span{
+    color: rgb(227, 112, 112);
+}
+
+.two .info {
+    padding: 30px;
+    font-size: 25px;
+    position: relative;
+    margin-top: 70px;
+    font-family: fangsong;
+    text-align:center;
+}
+
+.two .info .fullName {
+    padding: 8px;
+}
+
+.two .fullName .iconName {
+    margin-right: 27px;
+}
+
+.two .info .sdt {
+    padding: 8px;
+    font-style: italic;
+    margin-top: 10px;
+    letter-spacing: 6px;
+}
+
+.two .sdt .iconPhone {
+    margin-right: 15px;
+}
+
+.two .contacts {
+    margin-top: 20px;
+    padding: 8px;
+    color: rgb(36, 45, 79);
+    font-weight: bold;
+}
+
+.two .contacts .contact-head {
+    text-align: center;
+    font-size: 45px;
+    padding: 8px 8px 0 8px;
+}
+
+.two .contacts .contacts-mxh {
+    padding: 8px 8px 0 8px;
+}
+
+.two .contacts .mxh {
+    position: relative;
+    margin-top: 15px;
+    padding: 8px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to right, #850303, #131516);
+}
+
+.two .contacts .contacts-mxh a {
+    display: block;
+    color: lightcoral;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.two .contacts .contacts-mxh .mxh:hover {
+    background: linear-gradient(to right, #1625c1, #12afaa);
+}
+
+.two .contacts-mxh .toan {
+    color: rgb(210, 78, 78);
+}
+
+.two .contacts .contacts-mxh .icon-mxh {
+    left: 30px;
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: absolute;
+    top: 10px;
+}
+
+.line-one {
+    position: absolute;
+    height: 350px;
+    width: 5px;
+    margin-left: 40%;
+    bottom: 40px;
+    border-radius: 2px;
+}
+
+.three {
+    position: relative;
+    height: 100vh;
+}
+
+@media (max-width: 740px) {
+    .col-two4, .col-two1, .col-two6 {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .line-one {
+        display: none;
+    }
+    .three{
+        display: none;
+    }
+
+    .two .contacts .contact-head {
+        font-size: 30px;
+    }
+
+    .two .contacts .contacts-mxh a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    .col-two4, .col-two1, .col-two6 {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .line-one {
+        display: none;
+    }
+    .three{
+        display: none;
+    }
+
+    .two .contacts .contact-head {
+        font-size: 35px;
+    }
+
+    .two .contacts .contacts-mxh a {
+        font-size: 20px;
+    }
+}
