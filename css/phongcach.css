@@ -7,11 +7,8 @@
 body,html {
     scroll-behavior: smooth;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(/image/background.png);
-    background-position: top;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: rgb(83,59,64);
+    background: linear-gradient(90deg, rgba(83,59,64,1) 0%, rgba(134,134,175,1) 48%, rgba(102,128,124,1) 100%);
 }
 
 .col-two4 {
