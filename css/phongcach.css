@@ -194,6 +194,15 @@ p.contensub span{
         font-size: 20px;
         padding: 8px;
     }
+    .one .content .name1{
+        font-size: 18px;
+    }
+    p.contensub {
+        font-size: 17px;
+    }
+    .two .info .sdt {
+        letter-spacing: 5px;
+    }
 }
 
 @media (min-width: 740px) and (max-width: 1024px) {
