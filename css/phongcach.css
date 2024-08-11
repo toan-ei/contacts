@@ -7,8 +7,8 @@
 body,html {
     scroll-behavior: smooth;
     font-family: 'Times New Roman', Times, serif;
-    background: rgb(83,59,64);
-    background: linear-gradient(90deg, rgba(83,59,64,1) 0%, rgba(134,134,175,1) 48%, rgba(102,128,124,1) 100%);
+    background: rgb(33,24,26);
+    background: linear-gradient(90deg, rgba(33,24,26,1) 0%, rgba(137,145,144,1) 100%);
 }
 
 .col-two4 {
@@ -189,6 +189,10 @@ p.contensub span{
 
     .two .contacts .contacts-mxh a {
         font-size: 18px;
+    }
+    .two .info{
+        font-size: 20px;
+        padding: 8px;
     }
 }
 
